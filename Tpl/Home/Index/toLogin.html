@@ -1,0 +1,55 @@
+<include file="./Tpl/Home/Public/header.html" />
+<body>
+<style>
+    html,body {
+        height:100%;
+    }
+
+    #content {
+        height:100%;
+        background-image: url('__URL__/../../public/img/home/bg1.jpg');
+        background-size: 100% 100%;
+    }
+
+	.modal {
+		top:200px;
+	}
+</style>
+<section id="content">
+	<div class="container">
+		<!-- Login Win -->
+		<div id="loginWin" class="modal">
+		  <div class="modal-header">
+		    <h3 style="color:#22AAEE;">Login</h3>
+		  </div>
+		  <div class="modal-body">
+		    <form class="form-horizontal" method="POST" action="__URL__/../Login/login/p/{$p}">
+				<div class="control-group">
+				  <label class="control-label" for="inputName">Name</label>
+				  <div class="controls">
+				    <input type="text" id="inputName" name="name" max="12" min="2" required 
+				    class="required">
+				  </div>
+				</div>
+				<div class="control-group">
+				  <label class="control-label" for="inputPassword">Password</label>
+				  <div class="controls">
+				    <input type="password" id="inputPwd" name="pwd" max="12" min="6" required
+				    	class="required">
+				  </div>
+				</div>
+		    </form>
+		  </div>
+		  <div class="modal-footer">
+            <a href="__URL__/../User/toRegister" class="pull-left">to Sign Up!</a>
+		    <button class="btn" onclick="back();">Back</button>
+			<button class="btn btn-primary"  onclick="login();" id="login">Login</button>
+		  </div>
+		</div>
+	</div>
+</section>
+<link href="__URL__/../../public/css/home/login.css" rel="stylesheet" media="screen">
+<script src="__URL__/../../public/js/home/login.js"></script>
+<script src="__URL__/../../assets/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<layout name="Layout/layout"/>
+<style>
+	.content{
+		padding-top: 20px;
+	}
+</style>
+<section class="content">
+	<div class="container">
+		<form class="form-horizontal" method="POST" action="__URL__/register">
+			<legend style="font-size:20px;color:#888888;">Introduce Yourself</legend>
+			<div class="control-group">
+			    <label class="control-label red" for="inputName">*Name</label>
+			    <div class="controls">
+			      <input type="text" id="inputName" name="name" max="12" min="2" onfocus="onNameFouce()"
+			      	class="required" oninput="onNameInput();">
+			      <span class="help-inline">字母或者_开头,可以包含字母、数字、_和.,最大长度12</span>
+			    </div>
+	  		</div>
+	  		<div class="control-group">
+			    <label class="control-label red" for="inputEmail">*Email</label>
+			    <div class="controls">
+			      <input type="text" class="span2" id="inputEmail" name="email" disabled="true">
+			      <span class="add-on">@eccom.com.cn</span>
+			    </div>
+	  		</div>
+	  		<div class="control-group">
+			    <label class="control-label red" for="inputPassword">*Password</label>
+			    <div class="controls">
+			      <input type="password" id="inputPwd" name="pwd" max="12" min="6"
+			      	class="required">
+			      <span class="help-inline">字母或者数字长度6-12</span>
+			    </div>
+	  		</div>
+	  		<div class="control-group">
+			    <label class="control-label red" for="inputPwdack">*Password again</label>
+			    <div class="controls">
+			      <input type="password" id="inputPwdack" name="pwdack" class="required">
+			    </div>
+	  		</div>
+	  		<div class="control-group">
+	  			<div class="form-actions">
+	  				<button type="button" class="btn btn-primary" onclick="toSubmit();">Submit</button>
+	  				<button type="button" class="btn">Cancle</button>
+	  			</div>
+		  		</div>
+			</div>
+		</form>
+</section>
+<script src="__URL__/../js/register.js"></script>

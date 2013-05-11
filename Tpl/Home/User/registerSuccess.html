@@ -1,0 +1,34 @@
+<layout name="Layout/layout"/>
+<style>
+	.content{
+		padding-top: 20px;
+	}
+</style>
+<div class="content">
+	<div class="container">
+		<div class="hero-unit">
+			<h3>Sign Up Success!</h3>
+			<h4>3</h4>
+		</div>
+	</div>
+</div>
+<script>
+
+var timer;
+var count = 3;
+
+$(function(){
+	timer = setInterval(onTimer,1000);
+});
+
+
+function onTimer() {
+	count --;
+	if(count == 0) {
+		clearInterval(timer);
+		window.location.href = "/75fan/";
+	}
+	$('h4').text(count);
+}
+
+</script>

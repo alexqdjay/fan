@@ -1,0 +1,53 @@
+.diningItem{
+	background: #eeeeee;
+	line-height: 20px;
+	padding: 5px;
+}
+
+.dining-selected div{
+	background-color: #4fdafd;
+	border-color: #4fdafd;
+}
+.dining-selected {
+	border-color: #4fdafd;
+}
+
+.dining-completed div{
+	background-color: #dddddd;
+	border-color: #dddddd;
+}
+
+.dining-completed {
+	border-color: #dddddd;
+}
+
+.cal-legend{
+	padding: 10px 0px;
+}
+
+.cal-legend-block{
+	color: #ffffff;
+	text-align: center;
+	padding: 5px 2px;
+	margin-bottom: 10px;
+	border-radius:3px;
+}
+
+.block-unselected {
+	background: #3366cc;
+}
+
+.block-selected {
+	background: #4fdafd;
+}
+
+.block-completed {
+	background: #dddddd;
+}
+
+
+.nav-content{
+	padding: 10px;
+	margin-left: 0px;
+}
+

@@ -1,0 +1,37 @@
+<!-- Header -->
+<div class="header">
+	<div class="container">
+		<div class="row-fluid">
+			<div id="logoShow" class="span3">
+				<a herf="index.php">75<span>Fan</span></a>
+			</div>
+			<div class="span9 navbar">
+				<div class="navbar-inner">
+					<ul class="nav fan-nav">
+						<li class="" id="index"><a href="/75fan/">Home</a></li>
+						<li class="" id="dining"><a href="/75fan/Dining/index">订饭</a></li>
+						<li class="" id="Msg"><a href="/75fan/Msg">Msg</a></li><!--  -->
+						<li class="" id="personal">
+							<a href="/75fan/Personal/index">
+								<span class="nav-ico icon-user"></span>{$userName}
+							</a>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown">
+							    <span class="caret"></span>
+						  	</a>
+					  		<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+							  <li class="dropdown-menu-item"><a tabindex="-1" href="#" onclick="logout();">Logout</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	var _url = '__URL__';
+</script>
+<script type="text/javascript" src="__URL__/../js/tbar.js"></script>
+	

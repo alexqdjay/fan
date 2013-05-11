@@ -1,0 +1,13 @@
+#goodsTable {
+
+}
+
+#storeInfo a{
+    color: #000000;
+    cursor: pointer;
+}
+
+#storeInfo address p{
+    display: inline;
+    margin-left: 5px;
+}

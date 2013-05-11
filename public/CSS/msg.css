@@ -1,0 +1,104 @@
+.main{
+	background-color: #ffffff;	
+}
+
+#userList-container{
+    width: 270px;
+    padding: 7px;
+}
+
+#userList {
+    height: 590px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+
+#userList li a{
+    padding: 10px;
+    line-height: 30px;
+    border-bottom: 1px solid #ededed;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#userList li.active a{
+    background-color: #22aaee;
+    color: #ffffff;
+}
+
+#msg-container {
+    min-width: 620px;
+    padding: 7px;
+}
+
+#msg-display {
+    background-color: #ffffff;
+    height: 550px;
+    overflow: hidden;
+}
+
+#input-container {
+    padding: 10px 3px 10px 0px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#input-container input{
+    width: 90%;
+}
+
+#input-container button {
+    width: 9%;
+}
+
+.msg {
+    padding: 5px;
+    vertical-align: top;
+    margin: 7px 0px;
+    cursor:default;
+}
+
+.portrait {
+    float: left;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #666666;
+    clear: left;
+}
+
+.msg-content {
+    float: left;
+    display: inline-block;
+    max-width: 45%;
+    padding: 7px;
+    line-height: 20px;
+    white-space:pre-wrap;
+    margin:  0px 5px;
+    clear: right;
+}
+
+.msg-time {
+    color: #b4b8bd;
+    position: relative;
+    left: 45px;
+    font-size: 12px;
+    clear: left;
+
+}
+
+.msg-to .portrait{
+    float: right;
+    clear: right;
+}
+
+.msg-to .msg-content{
+    float: right;
+    clear: left;
+}
+
+.msg-to .msg-time{
+    clear: right;
+    left: -45px;
+    text-align: right;
+}

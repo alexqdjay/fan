@@ -1,0 +1,42 @@
+[ 2013-04-28T10:52:30+08:00 ] 192.168.98.32 /fan/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: name H:\xampp\htdocs\fan\Lib\Action\Home\IndexAction.class.php 第 5 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001587s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001684s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032579s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000644s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000523s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000412s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002404s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000909s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2013-04-28T10:52:50+08:00 ] 192.168.98.32 /fan/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Undefined index: name H:\xampp\htdocs\fan\Lib\Action\Home\IndexAction.class.php 第 5 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000553s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011413s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000597s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000618s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000282s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002123s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000581s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000640s ]
+

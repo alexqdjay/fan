@@ -1,0 +1,43 @@
+<h3>Dining</h3>
+<hr class="bs-docs-separator"></hr>
+<div class="row-fluid">
+    <div class="span12">
+    	<div class="pagination pagination-right" id="pagination1">
+		      	<ul>
+		      		<li class=""><a onclick="onClickPre()" style="cursor:pointer;">&lt;&lt;</a></li>
+   					<for start="1" end="$count+1">
+   						<li class=""><a href="#{$i}" onclick="onClickPagination({$i});">{$i}</a></li>
+   					</for>
+   					<li class=""><a onclick="onClickNext();" style="cursor:pointer;">&gt;&gt;</a></li>
+			  	</ul>
+	      </div>
+      <table class="table table-hover" id="diningTable">
+      	<thead>
+      		<th>Name</th>
+      		<th>Price</th>
+      		<th>Action</th>
+      	</thead>
+      	<tbody>
+	      	<volist name="data" id="vo">
+	      		<tr id="data_{$vo.id}">
+	      			<td>{$vo.name}</td>
+	      			<td><?php
+					$price = (float)$vo['price'];
+						echo sprintf('%01.1f',$price);
+						?></td>
+	      			<td><button class="btn btn-primary" onclick="onClickBuy({$vo.id})">Buy</button></td>
+	      		</tr>
+	      	</volist>
+      	</tbody>
+      </table>
+      <div class="pagination pagination-right" id="pagination2">
+	      	<ul>
+	      		<li class=""><a onclick="onClickPre()" style="cursor:pointer;">&lt;&lt;</a></li>
+  					<for start="1" end="$count+1">
+  						<li class=""><a href="#{$i}" onclick="onClickPagination({$i});">{$i}</a></li>
+  					</for>
+  					<li class=""><a onclick="onClickNext();" style="cursor:pointer;">&gt;&gt;</a></li>
+		  	</ul>
+      </div>
+    </div>
+</div>

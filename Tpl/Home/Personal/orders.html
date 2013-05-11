@@ -1,0 +1,65 @@
+<section>
+	<div class="row-fluid">
+	<div class="pagination pagination-right" id="pagination1">
+      	<ul>
+      		<li><a onclick="onClickPre()" style="cursor:pointer;">&lt;&lt;</a></li>
+				<for start="1" end="$count+1">
+					<li class="pagination-count"><a href="#{$i}" id="paginationCount_{$i}" onclick="onClickPagination({$i});">{$i}</a></li>
+				</for>
+			<li class=""><a onclick="onClickNext();" style="cursor:pointer;">&gt;&gt;</a></li>
+	  	</ul>
+     </div>
+	<table class="table table-striped table-hover">
+		<thead>
+			<tr>
+				<th>NO.</th>
+				<th>Time</th>
+				<th>Name</th>
+				<th>Price</th>
+				<th>Status</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="data" id="vo">
+				<tr class="" id="order_{$vo.id}">
+					<td>{$vo.id}</td>
+					<td><?php 
+						$date = new DateTime();
+						$date->setTimestamp($vo['ts']);
+						echo $date->format('Y/m/d H:i:s');?></td>
+					<td>{$vo.diningName}</td>
+					<td><?php
+						$price = (float)$vo['price'];
+						echo sprintf('%01.1f',$price);
+					?></td>
+					<td class="order-status"><?php
+						if($vo['status']==1) {
+							echo '<button class="btn btn-danger" onclick="onCloseItem('.$vo['id'].')">Close</button>';
+						}
+						else if($vo['status']==2) {
+							echo 'Completed';
+						}
+						else if($vo['status']==0) {
+							echo 'Closed';
+						}
+					?></td>
+				</tr>
+			</volist>
+		</tbody>
+	</table>
+	</div>
+</section>
+
+<div class="modal hide fade" id="modal">
+	<div class="modal-header">
+	  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	  <h3>确认</h3>
+	</div>
+	<div class="modal-body">
+		<h4>确定关闭?</h4>
+	</div>
+	<div class="modal-footer">
+	  <button class="btn" onclick="onClose();">Cancle</button>
+	  <button class="btn btn-primary" onclick="onComfire();">OK</button>
+	</div>
+</div>

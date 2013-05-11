@@ -1,0 +1,50 @@
+<layout name="Layout/layout"/>
+<div class="row-fluid">
+    <div class="span12">
+        <div class="content-box">
+            <div class="content-box-title">
+            </div>
+            <div class="content-box-main" style="min-height: 836px">
+                <div class="row-fluid">
+                    <div class="span4">
+                        <div class="input-append">
+                            <input class="span9" id="searchText" type="text">
+                            <button class="btn" type="button" onclick="onSearch();"><i class="icon-search"></i>Search</button>
+                        </div>
+                    </div>
+                    <div class="span4 offset4">
+                        <div class="pagination pagination-right" style="margin:0px 0px 5px 0px;" id="page1">
+                            <ul>
+                                <li class="pagination-pre"><a>&laquo;</a></li>
+                                <li class="disabled"><span class="pagination-currentNum">1</span></li>
+                                <li class="pagination-next"><a>&raquo;</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <table class="table" id="recordTable">
+                            <thead>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Money</th>
+                                <th>Time</th>
+                                <th>Status</th>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+
+    .tbale-icon{
+        color: #00ff00;
+        opacity: .5;
+    }
+</style>
+<script src="__URL__/../../../public/JS/Admin/chargeRecord.js"></script>

@@ -1,0 +1,70 @@
+<layout name="Layout/layout2"/>
+<div class="row-fluid">
+    <div class="content-box">
+        <div class="content-box-title">
+        </div>
+        <div class="content-box-main" style="min-height: 80px">
+            <form class="form-horizontal" action="__URL__/../Store/save" method="POST">
+                <legend>Store</legend>
+
+                <!--    Id  -->
+                <input type="hidden" id="inputId" value="{$data.id}" name="id">
+
+                <!--   Store_Id  -->
+                <input type="hidden" id="inputStoreId" value="{$data.store_id}" name="store_id">
+
+                <!--  Name  -->
+                <div class="control-group">
+                    <label class="control-label" for="inputName">Name:</label>
+                    <div class="controls">
+                        <input type="text" id="inputName" value="{$data.name}" name="name">
+                    </div>
+                </div>
+
+                <!--  Addr  -->
+                <div class="control-group">
+                    <label class="control-label" for="inputAddr">Addr:</label>
+                    <div class="controls">
+                        <input type="text" id="inputAddr" value="{$data.addr}" name="addr">
+                    </div>
+                </div>
+
+                <!--  Tel  -->
+                <div class="control-group">
+                    <label class="control-label" for="inputTel">Tel:</label>
+                    <div class="controls">
+                        <input type="text" id="inputTel" value="{$data.tel}" name="tel">
+                    </div>
+                </div>
+
+                <!--  Summary  -->
+                <div class="control-group">
+                    <label class="control-label" for="inputSummary">Summary:</label>
+                    <div class="controls">
+                        <textarea id="inputSummary"  name="summary">{$data.summary}</textarea>
+                    </div>
+                </div>
+
+                <!--  Status  -->
+                <div class="control-group">
+                    <label class="control-label" for="selectStatus">Status:</label>
+                    <div class="controls">
+                        <select id="selectStatus" value="{$data.active}" name="active">
+                            <option value="1">active</option>
+                            <option value="0">disabled</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button class="btn btn-danger">Close</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<link href="__URL__/../../../public/CSS/good.css" rel="stylesheet" media="screen">
+<script src="__URL__/../../../public/JS/Admin/store.js"></script>

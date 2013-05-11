@@ -1,0 +1,79 @@
+/***
+*
+* alex 
+* 2013/1/24
+*
+**/
+
+
+/**	Left bar  **/
+
+.left-nav li{
+	margin-top: 3px;
+	line-height: 30px;
+}
+
+.nav li a{
+	cursor: pointer;
+	color: #666666;
+}
+
+.nav li.active a{
+	background-color: rgba(180,180,180,.4);
+	border-left: 1px solid rgba(100,100,100,0.5);
+	border-top: 1px solid rgba(100,100,100,0.5);
+	box-shadow:inset 0px 2px 2px rgba(0,0,0,.1);
+	color:#ffffff;
+}
+
+.left-nav li.active a:after{
+	content:'';
+	display:inline-block;
+	background-color: #ffffff;
+	float: right;
+	position: relative;
+	left: 25px;
+	top:5px;
+	width: 20px;
+	height: 20px;
+	transform:rotate(45deg);
+	box-shadow:0 0 10px 0 #ffffff;
+	-webkit-transform:rotate(45deg);
+	-webkit-box-shadow:0 0 10px 0 #ffffff;
+	z-index: 0;
+}
+
+.nav li.active a:HOVER{
+	background-color: rgba(180,180,180,.4);
+}
+
+.nav li a{
+	transition: all .5s ease-in-out 0s;
+	-webkit-transition: all .5s ease-in-out 0s;
+}
+
+
+/**	Content	***/
+
+.balance-well{
+	min-height: 50px;
+}
+
+.tab-content-row {
+	padding-left: 10px;	
+}
+
+#tab-content{
+	margin-left:0px;
+	background-color: #ffffff;
+	padding: 10px 20px 10px 20px;
+}
+
+h3.balance{
+	display: inline;
+	padding: 5px;
+	font-size: 25px;
+}
+.charge-btn {
+	margin-top: 5px;
+}
