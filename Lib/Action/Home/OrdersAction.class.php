@@ -5,7 +5,7 @@ class OrdersAction extends Action{
 	protected $auth = false;
 	
 	public function _initialize() {
-		$Login = A('Login');
+		$Login = A('Home/Login');
 		$this->auth = $Login->checkLogin();
 	}
 	

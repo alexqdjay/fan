@@ -148,7 +148,7 @@ function onComfireBuy() {
 
 function onComfireClose() {
 	$.ajax({
-		url:URL+'/../..//Orders/close',
+		url:URL+'/../../Orders/close',
 		data:{
 			id:currentDiningId
 		},

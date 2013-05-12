@@ -12,7 +12,7 @@ class DiningAction extends Action{
     	
     	$today = new DateTime();
     	$today->setTime(0,0,0);
-    	$condition['time'] = array('in',$today->getTimestamp().",0");
+    	$condition['time'] = array('in',strtotime($today->format('Y-m-d')).",0");
     	
     	$page = $_GET['page'];
 		if(!$page) {

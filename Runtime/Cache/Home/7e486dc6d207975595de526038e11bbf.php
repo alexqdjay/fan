@@ -1,11 +1,9 @@
-<section>
+<?php if (!defined('THINK_PATH')) exit();?><section>
 	<div class="row-fluid">
 	<div class="pagination pagination-right" id="pagination1">
       	<ul>
       		<li><a onclick="onClickPre()" style="cursor:pointer;">&lt;&lt;</a></li>
-				<for start="1" end="$count+1">
-					<li class="pagination-count"><a id="paginationCount_{$i}" onclick="onClickPagination({$i});">{$i}</a></li>
-				</for>
+				<?php $__FOR_START_14209__=1;$__FOR_END_14209__=$count+1;for($i=$__FOR_START_14209__;$i < $__FOR_END_14209__;$i+=1){ ?><li class="pagination-count"><a id="paginationCount_<?php echo ($i); ?>" onclick="onClickPagination(<?php echo ($i); ?>);"><?php echo ($i); ?></a></li><?php } ?>
 			<li class=""><a onclick="onClickNext();" style="cursor:pointer;">&gt;&gt;</a></li>
 	  	</ul>
      </div>
@@ -20,29 +18,16 @@
 			</tr>
 		</thead>
 		<tbody>
-			<volist name="data" id="vo">
-				<tr class="" id="order_{$vo.id}">
-					<td>{$vo.id}</td>
+			<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="" id="order_<?php echo ($vo["id"]); ?>">
+					<td><?php echo ($vo["id"]); ?></td>
 					<td><?php
-					    echo date('Y-m-d H:i:s',$vo['ts']);?></td>
-					<td>{$vo.diningName}</td>
+ echo date('Y-m-d H:i:s',$vo['ts']);?></td>
+					<td><?php echo ($vo["diningName"]); ?></td>
 					<td><?php
-						$price = (float)$vo['price'];
-						echo sprintf('%01.1f',$price);
-					?></td>
+ $price = (float)$vo['price']; echo sprintf('%01.1f',$price); ?></td>
 					<td class="order-status"><?php
-						if($vo['status']==1) {
-							echo '<button class="btn btn-danger" onclick="onCloseItem('.$vo['id'].')">Close</button>';
-						}
-						else if($vo['status']==2) {
-							echo 'Completed';
-						}
-						else if($vo['status']==0) {
-							echo 'Closed';
-						}
-					?></td>
-				</tr>
-			</volist>
+ if($vo['status']==1) { echo '<button class="btn btn-danger" onclick="onCloseItem('.$vo['id'].')">Close</button>'; } else if($vo['status']==2) { echo 'Completed'; } else if($vo['status']==0) { echo 'Closed'; } ?></td>
+				</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 		</tbody>
 	</table>
 	</div>

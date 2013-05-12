@@ -16,7 +16,7 @@ class ChargeAction extends Action{
 
     public function listChargesNeedConfirm() {
         $C = new ChargesModel();
-        $data = $C->relation(true)->where(array('status'=>1))->select();
+        $data = $C->relation(true)->where(array('status'=>0))->select();
         if($data == null)$data = array();
         $this->ajaxReturn($data,'json');
     }
@@ -24,20 +24,20 @@ class ChargeAction extends Action{
     public function confirm($id=0,$status=1) {
         $data['status'] = $status;
         $C = M('charges');
-        $data = $C->where(array('id'=>$id,'status'=>1))->field('money,user_id')->find();
+        $data = $C->where(array('id'=>$id,'status'=>0))->field('money,user_id')->find();
         if($data != null) {
             $m = $data['money'];
             $uid = $data['user_id'];
             $s = false;
-            if($status == 2) {
-                $B = M('Balance');
+            if($status == 1) {
+                $B = M('account');
                 $b = $B->where(array('user_id'=>$uid))->select();
                 if($b != null) {
-                    $b[0]['money'] += $m;
+                    $b[0]['balance'] += $m;
                     $s = $B->save($b[0]);
                 }
                 else {
-                    $b = array('user_id'=>$uid,'money'=>$m);
+                    $b = array('user_id'=>$uid,'balance'=>$m);
                     $s = $B->add($b);
                 }
             }
@@ -63,7 +63,7 @@ class ChargeAction extends Action{
     }
 
     public function pageCharges($query=null,$start=0,$limit=20) {
-        $where = array('charges.status'=>array('neq',1));
+        $where = array('charges.status'=>array('neq',0));
         if($query != null && $query != "") {
             $where['user.name'] = array('like','%'.$query.'%');
         }
@@ -75,7 +75,7 @@ class ChargeAction extends Action{
     }
 
     public function allChargesCount($query=null) {
-        $where = array('charges.status'=>array('neq',1));
+        $where = array('charges.status'=>array('neq',0));
         if($query != null && $query != "") {
             $where['user.name'] = array('like','%'.$query.'%');
         }

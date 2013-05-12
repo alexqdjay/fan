@@ -1,0 +1,14 @@
+<?php if (!defined('THINK_PATH')) exit();?><div class="alert alert-info">
+			<strong>提示!</strong>
+			可以点击日历进行预定，取消等操作.....
+	</div>
+	<div class="row-fluid">
+		<div class="span12" id="cal"></div>
+	</div>
+	<div class="row-fluid">
+		<div class="cal-legend">
+			<div class="span2 block-unselected cal-legend-block">可预订</div>
+			<div class="span2 block-selected cal-legend-block">已预订</div>
+			<div class="span2 block-completed cal-legend-block">已完成</div>
+		</div>
+	</div>

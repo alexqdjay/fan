@@ -52,10 +52,10 @@ $(function(){
         },{
             dataIndex:'status',
             render:function(v,item){
-                if(v == 2) {
+                if(v == 1) {
                     return "<span style='color: #1C8C1D'>✔</span>";
                 }
-                else if(v==0){
+                else if(v==2){
                     return "<span style='color: #853333'>✘</span>";
                 }
                 else {

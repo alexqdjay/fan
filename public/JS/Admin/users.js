@@ -107,6 +107,10 @@ function onSearch() {
 }
 
 function timeRender(value) {
+    if(!$.isNumeric(value)){
+        value = parseInt(value);
+    }
+    value *= 1000;
     var date = new Date();
     date.setTime(value);
 
@@ -114,6 +118,9 @@ function timeRender(value) {
 }
 
 function timeRender2(value) {
+    if(!$.isNumeric(value)){
+        value = parseInt(value);
+    }
     var date = new Date();
     date.setTime(value);
 

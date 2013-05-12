@@ -27,7 +27,7 @@ $(function(){
 		}
 		else {
 			history.pushState(null,null);
-			history.replaceState(null,'',_url+'/Personal/index/'+id);
+			history.replaceState(null,'',URL+'/../../Personal/index/'+id);
 			selectNav(id);
 			getTabContent(id);
 			orders.page = 1;
@@ -64,14 +64,16 @@ function init() {
 function getTabContent(id,type) {
 	if(type == null)type=0;
 	$.ajax({
-		url:_url+'/Personal/'+id+'/type/'+type,
+		url:URL+'/../../Personal/'+id+'/type/'+type,
 		dataType:'json',
 		success:function(res){
 			if(res== null)return;
 			tabContent.html(res.html);
 			if(id == 'orders') {
-				selectPagination(1);
+                if(type<=0)type=1;
+				selectPagination(type);
 				orders.total = res.count;
+                orders.page = parseInt(type);
 			}
 			$('.btn').removeClass('active');
 			$('#r'+type).addClass('active');
@@ -81,8 +83,7 @@ function getTabContent(id,type) {
 
 function onClickPre() {
 	if(orders.page>1) {
-		orders.page --;
-		onClickPagination(orders.page);
+		onClickPagination(orders.page-1);
 	}
 }
 
@@ -113,7 +114,7 @@ function onComfire() {
 
 function onComfireCharge() {
 	$.ajax({
-		url:'/75fan/index.php/Account/charge',
+		url:URL+'/../../Account/charge',
 		data:{
 			v:$('#chargeValue').val()
 		},
@@ -127,16 +128,16 @@ function onComfireCharge() {
 
 function onClickNext() {
 	if(orders.page<orders.total) {
-		orders.page ++;
-		onClickPagination(orders.page);
+		onClickPagination(orders.page+1);
 	}
 }
 
 function onClickPagination(i) {
 	if(orders.page != i) {
 		orders.page = i;
+        history.replaceState(null,'',URL+'/../../Personal/index/orders/'+i);
 		$.ajax({
-			url:_url+'../ordersPage?page='+i,
+			url:URL+'/../../Personal/ordersPage?page='+i,
 			dataType:'json',
 			success:function(res){
 				tabContent.html(res.html);
@@ -149,9 +150,9 @@ function onClickPagination(i) {
 
 function loadRecord(type) {
 	history.pushState(null,null);
-	history.replaceState(null,'',_url+'/index/balance/'+type);
+	history.replaceState(null,'',URL+'/../../Personal/index/balance/'+type);
 	$.ajax({
-		url:'/75fan/index.php/Personal/balance',
+		url:URL+'/../../Personal/balance',
 		data:{
 			type:type
 		},

@@ -44,8 +44,8 @@ $(function(){
         },{
             dataIndex:'status',
             render:function(v,item){
-                return '<button class="btn btn-primary" onclick="onConfirm('+item.id+',2)" style="margin-right:10px">Confirm</button>' +
-                    '<button class="btn btn-danger" onclick="onConfirm('+item.id+',0)">Close</button>';
+                return '<button class="btn btn-primary" onclick="onConfirm('+item.id+',1)" style="margin-right:10px">Confirm</button>' +
+                    '<button class="btn btn-danger" onclick="onConfirm('+item.id+',2)">Close</button>';
             }
         }]
     });

@@ -16,7 +16,7 @@ class PersonalAction extends Action{
 	}
 	
 	public function index() {
-		if(!$this->auth) {
+        if(!$this->auth) {
 			$this->redirect('Index/toLogin',array('p'=>'Personal-index'));
 			return;
 		}
@@ -28,27 +28,27 @@ class PersonalAction extends Action{
 		}
 	}
 	
-	public function orders() {
-		$page = 1;
+	public function orders($type=1) {
 		if(!$this->auth) {
 			$this->redirect('Index/toLogin',array('p'=>'Personal-index'));
 			return;
 		}
 		else {
+            if($type<=0)$type=1;
 			$name = $_SESSION['name'];
 			$uid = $_SESSION['uid'];
 			$data = array();
 			$count = 0;
 			$ar = array('count'=>0,'data'=>array());
 			if(isset($name) && isset($uid)) {
-				$ar = $this->getOrdersDataByPage($page,$uid);
+				$ar = $this->getOrdersDataByPage($type,$uid);
 			}
 		}
 		$this->count = $ar['count'];
 		$this->data = $ar['data'];
 		
 		$html = $this->fetch();
-		
+
 		$this->ajaxReturn(array('count'=>$this->count,'html'=>$html),'json');
 	}
 	
@@ -81,13 +81,13 @@ class PersonalAction extends Action{
 		$db =  new Model();
 		if($type == 0) {
 			$date = new DateTime(date('Y-m-01'));
-			$ts = $date->getTimestamp();
+			$ts = strtotime('now');
 			$sqlsss = "select ts,-1*price as money from orders,dining  where status=2 and user_id=$uid and ts>$ts and dining_id=dining.id union select ts, money from charges where user_id=$uid and ts>$ts order by ts desc";
 		}
 		else if($type != 0) {
 			$strDate=date('Y-m-01',strtotime('-1 month'));
 			$date = new DateTime($strDate);
-			$ts = $date->getTimestamp();
+			$ts = strtotime('now');
 			if($type == 1) {
 				$sqlsss = "select ts,-1*price as money from orders,dining  where status=2 and user_id=$uid and ts>$ts and dining_id=dining.id union select ts, money from charges where user_id=$uid and ts>$ts order by ts desc";
 			}
@@ -114,8 +114,8 @@ class PersonalAction extends Action{
 	
 	private function getOrdersDataByPage($page,$uid) {
 		$Orders = new OrdersModel();
-		$data = $Orders->relation(true)->where(array('user_id'=>$uid))->order('ts desc')->page($page,10)->select();
-		$count = $Orders->where(array('user_id'=>$uid))->count()/10;
+		$data = $Orders->relation(true)->where(array('user_id'=>$uid))->order('ts desc')->page($page,15)->select();
+		$count = $Orders->where(array('user_id'=>$uid))->count()/15;
 		return array('count'=>$count,'data'=>$data);
 	}
 	
