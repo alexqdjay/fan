@@ -1,0 +1,1782 @@
+[ 2013-05-14T09:31:19+08:00 ] 192.168.96.17 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001083s ]
+
+[ 2013-05-14T09:35:30+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001129s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001240s ]
+
+[ 2013-05-14T09:35:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001321s ]
+
+[ 2013-05-14T09:35:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001193s ]
+
+[ 2013-05-14T09:35:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368495331918
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001479s ]
+
+[ 2013-05-14T09:35:53+08:00 ] 127.0.0.1 /fan/Admin/Goods/stores
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001063s ]
+
+[ 2013-05-14T09:35:54+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allStoreCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000916s ]
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `store`
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `store` LIMIT 1  
+
+[ 2013-05-14T09:35:54+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listStores
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000968s ]
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `store`
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `store` WHERE ( `active` IN ('0','1') ) LIMIT 0,20  
+
+[ 2013-05-14T09:35:55+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000868s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-05-14T09:35:56+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001201s ]
+
+[ 2013-05-14T09:35:56+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368495356421
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001098s ]
+
+[ 2013-05-14T09:35:56+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000925s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001027s ]
+
+[ 2013-05-14T09:36:35+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000891s ]
+
+[ 2013-05-14T09:36:35+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?query=%E9%B8%A1&start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000913s ]
+
+[ 2013-05-14T09:36:41+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000850s ]
+
+[ 2013-05-14T09:36:41+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000947s ]
+
+[ 2013-05-14T09:36:41+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001113s ]
+
+[ 2013-05-14T09:36:41+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368495401522
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000984s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001057s ]
+
+[ 2013-05-14T09:44:05+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001043s ]
+
+[ 2013-05-14T09:44:05+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000894s ]
+
+[ 2013-05-14T09:44:05+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368495845802
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001268s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001359s ]
+
+[ 2013-05-14T09:44:05+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001283s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001373s ]
+
+[ 2013-05-14T09:44:10+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001108s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001314s ]
+
+[ 2013-05-14T09:44:11+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001019s ]
+
+[ 2013-05-14T09:44:11+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368495851290
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001162s ]
+
+[ 2013-05-14T09:44:11+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001041s ]
+
+[ 2013-05-14T09:44:26+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000915s ]
+
+[ 2013-05-14T09:44:28+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000969s ]
+
+[ 2013-05-14T09:44:28+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001452s ]
+
+[ 2013-05-14T09:44:28+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368495868105
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+
+[ 2013-05-14T09:47:30+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001092s ]
+
+[ 2013-05-14T09:47:31+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000930s ]
+
+[ 2013-05-14T09:47:31+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001110s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001204s ]
+
+[ 2013-05-14T09:47:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496051861
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001249s ]
+
+[ 2013-05-14T09:48:13+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001287s ]
+
+[ 2013-05-14T09:48:14+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000970s ]
+
+[ 2013-05-14T09:48:14+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496094293
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000961s ]
+
+[ 2013-05-14T09:48:14+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001204s ]
+
+[ 2013-05-14T09:48:18+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000840s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000919s ]
+
+[ 2013-05-14T09:48:18+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?query=&start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000963s ]
+
+[ 2013-05-14T09:48:22+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000907s ]
+
+[ 2013-05-14T09:48:22+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000892s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000988s ]
+
+[ 2013-05-14T09:48:22+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496102817
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000967s ]
+
+[ 2013-05-14T09:48:22+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001097s ]
+
+[ 2013-05-14T09:48:59+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001105s ]
+
+[ 2013-05-14T09:49:00+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+
+[ 2013-05-14T09:49:00+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496140360
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000920s ]
+
+[ 2013-05-14T09:49:00+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000859s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000941s ]
+
+[ 2013-05-14T09:50:00+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+
+[ 2013-05-14T09:50:00+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000943s ]
+
+[ 2013-05-14T09:50:00+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001105s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001228s ]
+
+[ 2013-05-14T09:50:00+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496200502
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001428s ]
+
+[ 2013-05-14T09:50:28+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001056s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001150s ]
+
+[ 2013-05-14T09:50:28+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?query=%E9%B8%A1&start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000912s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001009s ]
+
+[ 2013-05-14T09:50:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?query=%E9%B8%A1&start=1&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000844s ]
+
+[ 2013-05-14T09:50:33+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?query=%E9%B8%A1&start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001253s ]
+
+[ 2013-05-14T09:50:36+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000770s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000847s ]
+
+[ 2013-05-14T09:50:37+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496237027
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001387s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001525s ]
+
+[ 2013-05-14T09:50:37+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001506s ]
+
+[ 2013-05-14T09:50:37+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001253s ]
+
+[ 2013-05-14T09:53:45+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001007s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001089s ]
+
+[ 2013-05-14T09:53:46+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001036s ]
+
+[ 2013-05-14T09:53:46+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496426042
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001071s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001220s ]
+
+[ 2013-05-14T09:53:46+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002334s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002482s ]
+
+[ 2013-05-14T09:53:46+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001130s ]
+
+[ 2013-05-14T09:53:47+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=1&limit=10&query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000889s ]
+
+[ 2013-05-14T09:53:48+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000812s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000890s ]
+
+[ 2013-05-14T09:53:56+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001046s ]
+
+[ 2013-05-14T09:53:58+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001057s ]
+
+[ 2013-05-14T09:53:58+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000981s ]
+
+[ 2013-05-14T09:53:58+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001288s ]
+
+[ 2013-05-14T09:53:58+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496437824
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001038s ]
+
+[ 2013-05-14T09:54:45+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000964s ]
+
+[ 2013-05-14T09:54:46+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001299s ]
+
+[ 2013-05-14T09:54:46+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496486216
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001257s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001780s ]
+
+[ 2013-05-14T09:54:46+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000864s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000950s ]
+
+[ 2013-05-14T09:54:46+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001057s ]
+
+[ 2013-05-14T09:54:47+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000889s ]
+
+[ 2013-05-14T09:54:49+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000960s ]
+
+[ 2013-05-14T09:54:49+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001028s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001133s ]
+
+[ 2013-05-14T09:54:49+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000807s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000885s ]
+
+[ 2013-05-14T09:54:49+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496488783
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000908s ]
+
+[ 2013-05-14T09:54:58+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000969s ]
+
+[ 2013-05-14T09:54:59+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000908s ]
+
+[ 2013-05-14T09:54:59+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496499489
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001310s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001404s ]
+
+[ 2013-05-14T09:54:59+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001116s ]
+
+[ 2013-05-14T09:54:59+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001110s ]
+
+[ 2013-05-14T09:55:29+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001064s ]
+
+[ 2013-05-14T09:55:31+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000924s ]
+
+[ 2013-05-14T09:55:31+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496530796
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000909s ]
+
+[ 2013-05-14T09:55:31+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001140s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001238s ]
+
+[ 2013-05-14T09:55:31+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001106s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001255s ]
+
+[ 2013-05-14T09:57:10+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001607s ]
+
+[ 2013-05-14T09:57:11+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000931s ]
+
+[ 2013-05-14T09:57:11+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496631315
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001290s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001405s ]
+
+[ 2013-05-14T09:57:11+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001415s ]
+
+[ 2013-05-14T09:57:11+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001226s ]
+
+[ 2013-05-14T09:57:16+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000761s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000839s ]
+
+[ 2013-05-14T09:57:17+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001162s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001319s ]
+
+[ 2013-05-14T09:57:18+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001438s ]
+
+[ 2013-05-14T09:57:18+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000985s ]
+
+[ 2013-05-14T09:57:18+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496637570
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000944s ]
+
+[ 2013-05-14T09:57:25+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001062s ]
+
+[ 2013-05-14T09:57:27+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000950s ]
+
+[ 2013-05-14T09:57:27+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001277s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001388s ]
+
+[ 2013-05-14T09:57:27+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496646929
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001020s ]
+
+[ 2013-05-14T09:57:27+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000903s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-05-14T09:57:28+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000862s ]
+
+[ 2013-05-14T09:57:29+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496649421
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000877s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000993s ]
+
+[ 2013-05-14T09:57:29+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001071s ]
+
+[ 2013-05-14T09:57:29+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001075s ]
+
+[ 2013-05-14T09:57:29+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000985s ]
+
+[ 2013-05-14T09:57:37+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000958s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001066s ]
+
+[ 2013-05-14T09:57:38+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001039s ]
+
+[ 2013-05-14T09:57:38+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496658193
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001154s ]
+
+[ 2013-05-14T09:57:38+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001176s ]
+
+[ 2013-05-14T09:57:38+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000856s ]
+
+[ 2013-05-14T09:57:43+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000788s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000866s ]
+
+[ 2013-05-14T09:57:44+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002526s ]
+
+[ 2013-05-14T09:57:44+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001318s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001414s ]
+
+[ 2013-05-14T09:57:44+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+
+[ 2013-05-14T09:57:44+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496663945
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001103s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001232s ]
+
+[ 2013-05-14T09:57:54+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000788s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000865s ]
+
+[ 2013-05-14T09:57:56+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000980s ]
+
+[ 2013-05-14T09:57:56+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000969s ]
+
+[ 2013-05-14T09:57:56+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496675678
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000971s ]
+
+[ 2013-05-14T09:57:56+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000878s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000965s ]
+
+[ 2013-05-14T09:58:03+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000866s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000958s ]
+
+[ 2013-05-14T09:58:04+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001183s ]
+
+[ 2013-05-14T09:58:04+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001029s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+
+[ 2013-05-14T09:58:04+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+
+[ 2013-05-14T09:58:05+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496684498
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001056s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001165s ]
+
+[ 2013-05-14T09:58:06+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=1&limit=10&query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000927s ]
+
+[ 2013-05-14T09:58:08+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E7%89%9B
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000844s ]
+
+[ 2013-05-14T09:58:12+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001046s ]
+
+[ 2013-05-14T09:58:13+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000910s ]
+
+[ 2013-05-14T09:58:13+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000892s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000994s ]
+
+[ 2013-05-14T09:58:13+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+
+[ 2013-05-14T09:58:13+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496693443
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000909s ]
+
+[ 2013-05-14T09:59:30+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+
+[ 2013-05-14T09:59:31+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000963s ]
+
+[ 2013-05-14T09:59:31+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001256s ]
+
+[ 2013-05-14T09:59:31+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001054s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001146s ]
+
+[ 2013-05-14T09:59:31+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496770920
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001086s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001180s ]
+
+[ 2013-05-14T09:59:48+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001155s ]
+
+[ 2013-05-14T09:59:50+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000816s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000908s ]
+
+[ 2013-05-14T09:59:50+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001069s ]
+
+[ 2013-05-14T09:59:50+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496789595
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001128s ]
+
+[ 2013-05-14T10:00:01+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000892s ]
+
+[ 2013-05-14T10:00:02+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000814s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000902s ]
+
+[ 2013-05-14T10:00:02+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=%E9%B8%A1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001069s ]
+
+[ 2013-05-14T10:00:02+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496801872
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000988s ]
+
+[ 2013-05-14T10:00:06+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/dining/query/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000841s ]
+
+[ 2013-05-14T10:00:07+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000942s ]
+
+[ 2013-05-14T10:00:07+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000913s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000990s ]
+
+[ 2013-05-14T10:00:07+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496807455
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001007s ]
+
+[ 2013-05-14T10:00:30+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=1&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000869s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000951s ]
+
+[ 2013-05-14T10:00:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=2&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000848s ]
+
+[ 2013-05-14T10:00:33+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=1&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000843s ]
+
+[ 2013-05-14T10:00:33+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000848s ]
+
+[ 2013-05-14T10:00:48+08:00 ] 127.0.0.1 /fan/Admin/Goods/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000985s ]
+
+[ 2013-05-14T10:00:49+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000877s ]
+
+[ 2013-05-14T10:00:49+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000842s ]
+
+[ 2013-05-14T10:01:03+08:00 ] 127.0.0.1 /fan/index.php/Admin/Store/search?name=levis
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000768s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000843s ]
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `store`
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `store` WHERE ( `name` LIKE '%levis%' ) LIMIT 1  
+
+[ 2013-05-14T10:01:07+08:00 ] 127.0.0.1 /fan/index.php/Admin/Store/search?name=lev
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000922s ]
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `store`
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `store` WHERE ( `name` LIKE '%lev%' ) LIMIT 1  
+
+[ 2013-05-14T10:01:30+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000903s ]
+
+[ 2013-05-14T10:01:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000928s ]
+
+[ 2013-05-14T10:01:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001122s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001267s ]
+
+[ 2013-05-14T10:01:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496891575
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+
+[ 2013-05-14T10:02:28+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001068s ]
+
+[ 2013-05-14T10:02:29+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001225s ]
+
+[ 2013-05-14T10:02:29+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368496949138
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001112s ]
+
+[ 2013-05-14T10:02:29+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001110s ]
+
+[ 2013-05-14T10:05:31+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001019s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001131s ]
+
+[ 2013-05-14T10:05:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001123s ]
+
+[ 2013-05-14T10:05:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000812s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000888s ]
+
+[ 2013-05-14T10:05:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497132272
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001412s ]
+
+[ 2013-05-14T10:06:34+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000998s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001090s ]
+
+[ 2013-05-14T10:06:36+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001207s ]
+
+[ 2013-05-14T10:06:36+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497195746
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001444s ]
+
+[ 2013-05-14T10:06:36+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001409s ]
+
+[ 2013-05-14T10:07:06+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+
+[ 2013-05-14T10:07:07+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497227329
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001085s ]
+
+[ 2013-05-14T10:07:07+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001107s ]
+
+[ 2013-05-14T10:07:07+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000858s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+
+[ 2013-05-14T10:09:59+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001140s ]
+
+[ 2013-05-14T10:10:00+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000928s ]
+
+[ 2013-05-14T10:10:00+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497399800
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001206s ]
+
+[ 2013-05-14T10:10:00+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001036s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001109s ]
+
+[ 2013-05-14T10:10:37+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000882s ]
+
+[ 2013-05-14T10:10:38+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+
+[ 2013-05-14T10:10:38+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000800s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000895s ]
+
+[ 2013-05-14T10:10:38+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497438096
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001166s ]
+
+[ 2013-05-14T10:10:58+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000996s ]
+
+[ 2013-05-14T10:10:59+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000927s ]
+
+[ 2013-05-14T10:10:59+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497459126
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001237s ]
+
+[ 2013-05-14T10:10:59+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
+
+[ 2013-05-14T10:11:56+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000841s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000938s ]
+
+[ 2013-05-14T10:11:57+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001070s ]
+
+[ 2013-05-14T10:11:57+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497517096
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001011s ]
+
+[ 2013-05-14T10:11:57+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=&callBack=undefined
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000904s ]
+
+[ 2013-05-14T10:13:57+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001133s ]
+
+[ 2013-05-14T10:13:58+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000920s ]
+
+[ 2013-05-14T10:13:58+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497638273
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001149s ]
+
+[ 2013-05-14T10:13:58+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001402s ]
+
+[ 2013-05-14T10:14:21+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000797s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000883s ]
+
+[ 2013-05-14T10:14:22+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001126s ]
+
+[ 2013-05-14T10:14:22+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000851s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+
+[ 2013-05-14T10:14:22+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497662363
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001160s ]
+
+[ 2013-05-14T10:15:03+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000872s ]
+
+[ 2013-05-14T10:15:05+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+
+[ 2013-05-14T10:15:05+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001395s ]
+
+[ 2013-05-14T10:15:05+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497704664
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000959s ]
+
+[ 2013-05-14T10:15:19+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000991s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001094s ]
+
+[ 2013-05-14T10:15:20+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497720479
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000921s ]
+
+[ 2013-05-14T10:15:20+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001271s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001362s ]
+
+[ 2013-05-14T10:15:20+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001327s ]
+
+[ 2013-05-14T10:15:40+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000828s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000932s ]
+
+[ 2013-05-14T10:15:42+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000867s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000967s ]
+
+[ 2013-05-14T10:15:42+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497741661
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000894s ]
+
+[ 2013-05-14T10:15:42+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001055s ]
+
+[ 2013-05-14T10:15:52+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000918s ]
+
+[ 2013-05-14T10:15:53+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497753115
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000913s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001003s ]
+
+[ 2013-05-14T10:15:53+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000958s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001041s ]
+
+[ 2013-05-14T10:15:53+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000964s ]
+
+[ 2013-05-14T10:16:47+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000933s ]
+
+[ 2013-05-14T10:16:49+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000969s ]
+
+[ 2013-05-14T10:16:49+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+
+[ 2013-05-14T10:16:49+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497808727
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001269s ]
+
+[ 2013-05-14T10:16:51+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000987s ]
+
+[ 2013-05-14T10:16:52+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000925s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001014s ]
+
+[ 2013-05-14T10:16:53+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000919s ]
+
+[ 2013-05-14T10:16:53+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368497812611
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000886s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000965s ]
+
+[ 2013-05-14T10:19:41+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001296s ]
+
+[ 2013-05-14T10:19:42+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001193s ]
+
+[ 2013-05-14T10:21:26+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000899s ]
+
+[ 2013-05-14T10:21:27+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000926s ]
+
+[ 2013-05-14T10:21:27+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368498087177
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001982s ]
+
+[ 2013-05-14T10:21:27+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001079s ]
+
+[ 2013-05-14T10:21:56+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000952s ]
+
+[ 2013-05-14T10:21:57+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001096s ]
+
+[ 2013-05-14T10:21:58+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000954s ]
+
+[ 2013-05-14T10:21:58+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368498117603
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001334s ]
+
+[ 2013-05-14T10:22:04+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/addDining?gid=90&ts=1367164800000
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000801s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000877s ]
+
+[ 2013-05-14T10:22:09+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000857s ]
+
+[ 2013-05-14T10:22:10+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001287s ]
+
+[ 2013-05-14T10:22:10+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368498130480
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000917s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+
+[ 2013-05-14T10:22:10+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001334s ]
+
+[ 2013-05-14T10:22:13+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/deleteDining?id=117
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000937s ]
+
+[ 2013-05-14T10:22:15+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/addDining?gid=91&ts=1367251200000
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001111s ]
+
+[ 2013-05-14T10:22:17+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/deleteDining?id=118
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000981s ]
+
+[ 2013-05-14T10:22:27+08:00 ] 127.0.0.1 /fan/Admin/Goods/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000864s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000972s ]
+
+[ 2013-05-14T10:22:28+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+
+[ 2013-05-14T10:22:28+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+
+[ 2013-05-14T10:22:29+08:00 ] 127.0.0.1 /fan/Admin/Goods/stores
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000866s ]
+
+[ 2013-05-14T10:22:30+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allStoreCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000878s ]
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `store`
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `store` LIMIT 1  
+
+[ 2013-05-14T10:22:30+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listStores
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000832s ]
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `store`
+ERR: Table 'fan.store' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `store` WHERE ( `active` IN ('0','1') ) LIMIT 0,20  
+
+[ 2013-05-14T10:22:31+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000902s ]
+
+[ 2013-05-14T10:22:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001194s ]
+
+[ 2013-05-14T10:22:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001016s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001122s ]
+
+[ 2013-05-14T10:22:32+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368498152047
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001068s ]
+
+[ 2013-05-14T10:25:37+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001082s ]
+
+[ 2013-05-14T10:25:38+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000910s ]
+
+[ 2013-05-14T10:25:38+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368498337848
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+
+[ 2013-05-14T10:25:38+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001379s ]
+
+[ 2013-05-14T10:29:38+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001044s ]
+
+[ 2013-05-14T10:29:39+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001096s ]
+
+[ 2013-05-14T10:29:39+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001037s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001123s ]
+
+[ 2013-05-14T10:29:39+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368498579007
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001404s ]
+
+[ 2013-05-14T10:29:55+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000925s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+
+[ 2013-05-14T10:29:56+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000968s ]
+
+[ 2013-05-14T10:29:56+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001099s ]
+
+[ 2013-05-14T10:29:56+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368498596419
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001612s ]
+
+[ 2013-05-14T10:29:57+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000801s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+
+[ 2013-05-14T10:29:57+08:00 ] ERR: (ThinkException) 非法操作:toLogin
+[ 2013-05-14T10:29:57+08:00 ] 127.0.0.1 /fan/index.php/Admin/Index/toLogin/p/Index-index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001200s ]
+
+[ 2013-05-14T10:30:13+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002197s ]
+
+[ 2013-05-14T10:30:13+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001274s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001424s ]
+
+[ 2013-05-14T10:30:13+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368498613223
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001123s ]
+
+[ 2013-05-14T10:30:20+08:00 ] 127.0.0.1 /fan/Admin/Charge/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001239s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001433s ]
+
+[ 2013-05-14T10:30:20+08:00 ] ERR: (ThinkException) 非法操作:toLogin
+[ 2013-05-14T10:30:20+08:00 ] 127.0.0.1 /fan/index.php/Admin/Index/toLogin/p/Index-index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000863s ]
+
+[ 2013-05-14T10:30:28+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000998s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+
+[ 2013-05-14T10:30:28+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000886s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000968s ]
+
+[ 2013-05-14T10:30:28+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368498628042
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001083s ]
+
+[ 2013-05-14T10:30:33+08:00 ] 127.0.0.1 /fan/Admin/Goods/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000847s ]
+
+[ 2013-05-14T10:30:34+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001166s ]
+
+[ 2013-05-14T10:30:34+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001085s ]
+
+[ 2013-05-14T10:30:35+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000864s ]
+
+[ 2013-05-14T10:30:35+08:00 ] ERR: (ThinkException) 非法操作:toLogin
+[ 2013-05-14T10:30:35+08:00 ] 127.0.0.1 /fan/index.php/Admin/Index/toLogin/p/Index-index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000851s ]
+
+[ 2013-05-14T10:31:26+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000821s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000910s ]
+
+[ 2013-05-14T10:31:26+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001148s ]
+
+[ 2013-05-14T10:31:29+08:00 ] 127.0.0.1 /fan/Admin/Account/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000885s ]
+
+[ 2013-05-14T10:31:30+08:00 ] 127.0.0.1 /fan/index.php/Admin/Account/pageList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000918s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001012s ]
+
+[ 2013-05-14T10:31:36+08:00 ] 127.0.0.1 /fan/Admin/Charge/chargeRecord
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000908s ]
+
+[ 2013-05-14T10:31:37+08:00 ] 127.0.0.1 /fan/index.php/Admin/Charge/pageCharges?start=0&limit=20
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000799s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000891s ]
+
+[ 2013-05-14T10:31:37+08:00 ] 127.0.0.1 /fan/index.php/Admin/Charge/allChargesCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000892s ]
+
+[ 2013-05-14T10:31:38+08:00 ] 127.0.0.1 /fan/Admin/Charge/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000854s ]
+
+[ 2013-05-14T10:31:38+08:00 ] ERR: (ThinkException) 非法操作:toLogin
+[ 2013-05-14T10:31:38+08:00 ] 127.0.0.1 /fan/index.php/Admin/Index/toLogin/p/Index-index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000766s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000841s ]
+
+[ 2013-05-14T10:31:41+08:00 ] 127.0.0.1 /fan/index.php/Admin/Charge/pageCharges?start=0&limit=20
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000986s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001070s ]
+
+[ 2013-05-14T10:31:41+08:00 ] 127.0.0.1 /fan/index.php/Admin/Charge/allChargesCount
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001313s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001409s ]
+
+[ 2013-05-14T10:31:58+08:00 ] 127.0.0.1 /fan/Admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000931s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+
+[ 2013-05-14T10:31:58+08:00 ] 127.0.0.1 /fan/Index/toLogin/p/Index-index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000812s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Undefined index: name H:\xampp\htdocs\fan\Lib\Action\Home\IndexAction.class.php 第 44 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000757s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009158s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000484s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000485s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000343s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001996s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2013-05-14T10:32:05+08:00 ] 127.0.0.1 /fan/index.php/Login/login/p/Index-index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000792s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003779s ]
+SQL: SELECT * FROM `user` WHERE ( `name` = 'qianduo' )  [ RunTime:0.002056s ]
+NOTIC: [8192] Function split() is deprecated H:\xampp\htdocs\fan\Lib\Action\Home\LoginAction.class.php 第 31 行.
+
+[ 2013-05-14T10:32:06+08:00 ] 127.0.0.1 /fan/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000613s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011934s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000468s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000361s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000254s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001686s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000568s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2013-05-14T10:32:11+08:00 ] 127.0.0.1 /fan/Admin/Goods/dining
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001278s ]
+
+[ 2013-05-14T10:32:12+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10&query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+
+[ 2013-05-14T10:32:12+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/allCount?query=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001797s ]
+
+[ 2013-05-14T10:32:12+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/loadDiningData?start=1367078400&end=1370102400&_=1368498732128
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001146s ]
+
+[ 2013-05-14T10:32:13+08:00 ] 127.0.0.1 /fan/Admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000864s ]
+
+[ 2013-05-14T10:32:17+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000793s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000882s ]
+
+[ 2013-05-14T10:32:52+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000949s ]
+
+[ 2013-05-14T10:32:53+08:00 ] 127.0.0.1 /fan/index.php/Admin/Goods/listGoods?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+
+[ 2013-05-14T10:40:46+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001261s ]
+
+[ 2013-05-14T10:40:47+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000909s ]
+ERR: Table 'fan.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+ERR: Table 'fan.order' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `order` LEFT JOIN user on user_id=user.id WHERE ( `status` = 1 ) ORDER BY order.id desc 
+
+[ 2013-05-14T10:41:09+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001238s ]
+
+[ 2013-05-14T10:41:10+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001048s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001139s ]
+ERR: Table 'fan.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+ERR: Table 'fan.order' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `order` LEFT JOIN user on user_id=user.id WHERE ( `status` = 1 ) ORDER BY order.id desc 
+
+[ 2013-05-14T10:41:17+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+
+[ 2013-05-14T10:41:18+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001133s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001227s ]
+ERR: Table 'fan.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+ERR: Table 'fan.order' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `order` LEFT JOIN user on user_id=user.id WHERE ( `status` = 1 ) ORDER BY order.id desc 
+
+[ 2013-05-14T10:41:41+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000889s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
+
+[ 2013-05-14T10:41:42+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000974s ]
+ERR: Table 'fan.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+ERR: Table 'fan.order' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `order` LEFT JOIN user on user_id=user.id WHERE ( `status` = 1 ) ORDER BY order.id desc 
+
+[ 2013-05-14T10:42:05+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000899s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001021s ]
+
+[ 2013-05-14T10:42:06+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001193s ]
+
+[ 2013-05-14T10:42:41+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000828s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000919s ]
+
+[ 2013-05-14T10:42:42+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001077s ]
+
+[ 2013-05-14T10:43:28+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001090s ]
+
+[ 2013-05-14T10:43:29+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+
+[ 2013-05-14T10:44:51+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000892s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001014s ]
+
+[ 2013-05-14T10:44:52+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001492s ]
+
+[ 2013-05-14T10:45:18+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000788s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000880s ]
+
+[ 2013-05-14T10:45:19+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001107s ]
+
+[ 2013-05-14T10:45:50+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000918s ]
+
+[ 2013-05-14T10:45:51+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001080s ]
+
+[ 2013-05-14T10:46:18+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001177s ]
+
+[ 2013-05-14T10:46:19+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000797s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000877s ]
+
+[ 2013-05-14T10:47:54+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000985s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001082s ]
+
+[ 2013-05-14T10:47:55+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001243s ]
+
+[ 2013-05-14T10:48:21+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001282s ]
+
+[ 2013-05-14T10:48:22+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001074s ]
+
+[ 2013-05-14T10:50:19+08:00 ] 127.0.0.1 /fan/Admin/Order/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000935s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001049s ]
+
+[ 2013-05-14T10:50:20+08:00 ] 127.0.0.1 /fan/index.php/Admin/Order/listOrders?start=0&limit=10
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001015s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+

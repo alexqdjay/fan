@@ -1,4 +1,35 @@
-<!-- SilderBar-->
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+ <head lang="zh-CN">
+ 	<meta charset="utf-8"> 
+    <title><?php echo ($title); ?></title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content=""> 
+    <meta name="author" content=""> 
+    <link href="__URL__/../../../assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="__URL__/../../../assets/css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="__URL__/../../../assets/css/jquery-ui-1.10.1.custom.min.css" rel="stylesheet" media="screen">
+    <link href="__URL__/../../../public/CSS/common.css" rel="stylesheet" media="screen">
+    <script src="__URL__/../../../assets/js/jquery.js"></script>
+    <script src="__URL__/../../../assets/js/jquery-ui-1.10.1.custom.min.js"></script>
+    <!--  <link href="__URL__/../assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --> 
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+     <script src="__URL__/../../../public/JS/Admin/common.js"></script>
+     <script>
+         var URL = '__URL__';
+     </script>
+ </head>
+<body>
+    <!-- header bar-->
+<div id="hbar">
+    <div id="logoShow" class="span3">
+        <a herf="index.php">75<span>Fan</span></a>
+    </div>
+</div>
+	<!-- SilderBar-->
 <div id="sbar">
     <ul id="sbarList" class="accordion">
         <!--   Dash Board -->
@@ -95,3 +126,79 @@
         </li>
     </ul>
 </div>
+    <section id="content">
+        <div id="contentHeader">
+            <h1>Hello World</h1>
+        </div>
+        <div id="breadcrumb">
+            <ul class="breadcrumb">
+                <li><a href="#">首页</a> </li>
+                <li><span class="divider">/</span><a href="#">Library</a></li>
+                <li class="active"><span class="divider">/</span>Data</li>
+            </ul>
+        </div>
+    <div class="container-fluid">
+	
+<div class="row-fluid">
+    <div class="span12">
+        <div class="content-box">
+            <div class="content-box-title">
+            </div>
+            <div class="content-box-main" style="min-height: 836px">
+                <div class="row-fluid">
+                    <div class="span4">
+                        <div class="input-append">
+                            <input class="span9" id="searchText" type="text">
+                            <button class="btn" type="button" onclick="onSearch();"><i class="icon-search"></i>Search</button>
+                        </div>
+                    </div>
+                    <div class="span4 offset4">
+                        <div class="pagination pagination-right" style="margin:0px 0px 5px 0px;" id="page1">
+                            <ul>
+                                <li class="pagination-pre"><a>&laquo;</a></li>
+                                <li class="disabled"><span class="pagination-currentNum">1</span></li>
+                                <li class="pagination-next"><a>&raquo;</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <table class="table" id="recordTable">
+                            <thead>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Money</th>
+                                <th>Time</th>
+                                <th>Status</th>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+
+    .tbale-icon{
+        color: #00ff00;
+        opacity: .5;
+    }
+</style>
+<script src="__URL__/../../../public/JS/Admin/chargeRecord.js"></script>
+    </div>
+    </section>
+<!-- Socket -->
+<section id="socket">
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<span id="declaration">© 2013 75Fan All rights reserved.</span>
+		</div>
+	</div>
+</section>
+<script src="__URL__/../../../assets/js/bootstrap.min.js"></script>
+<script src="__URL__/../../../public/JS/fanadmin.js"></script>
+</body>
+</html>

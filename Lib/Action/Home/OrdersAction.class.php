@@ -20,10 +20,15 @@ class OrdersAction extends Action{
 				$data = $Account->where(array('user_id'=>$orders[0]['user_id']))->select();
 				if($data != null && count($data)>0) {
 					$data[0]['balance'] -= $orders[0]['price'];
-					$Account->save($data[0]);
+                    $r = $Account->save($data[0]);
 				}
 			}
-			$this->ajaxReturn(array('success'=>0),'json');
+            if(!$r) {
+                $this->ajaxReturn(array('success'=>1),'json');
+            }
+            else {
+			    $this->ajaxReturn(array('success'=>0),'json');
+            }
 		}
 		else {
 			$this->ajaxReturn(array('success'=>1),'json');

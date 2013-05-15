@@ -26,7 +26,7 @@ $(function(){
             href:null,
             icon:'icon-user'
         },{
-            text:'Charge'
+            text:'Charge Records'
         }]
     };
     var bc = new Fan.Breadcrumb($('#breadcrumb .breadcrumb'));

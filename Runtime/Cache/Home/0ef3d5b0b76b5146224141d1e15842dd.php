@@ -9,13 +9,15 @@
     <link href="__URL__/../../assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="__URL__/../../assets/css/animate.min.css" rel="stylesheet" media="screen">
     <link href="__URL__/../../assets/css/jquery-ui-1.10.1.custom.min.css" rel="stylesheet" media="screen">
+    <link href="__URL__/../../assets/fontello/css/fontello.css" rel="stylesheet">
+    <link href="__URL__/../../assets/fontello/css/animation.css" rel="stylesheet">
     <link href="__URL__/../../public/css/fan.css" rel="stylesheet" media="screen">
     <script src="__URL__/../../assets/js/jquery.js"></script>
     <script src="__URL__/../../assets/js/jquery-ui-1.10.1.custom.min.js"></script>
     <script src="__URL__/../../public/js/Home/common.js"></script>
      <script src="__URL__/../../public/js/fanadmin.js"></script>
-    <!--  <link href="__URL__/../assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --> 
+    <!-- <link href="__URL__/../../assets/css/bootstrap-responsive.css" rel="stylesheet">-->
+     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -106,48 +108,119 @@
 <!-- Content -->
 <div class="content">
 	<div class="container">
-		<div class="row service">
+        <!-- Service -->
+		<div class="row-fluid service">
 			<div class="span4">
-				<div class="small-well">
-					<div class="service-icon">
-						<li class="icon-user icon-white"></li>
-					</div>
-					<h5>User</h5>
-					<span>Info/Login</span>
-					<div class="progress progress-info">
-					  <div class="bar" style="width: 30%"></div>
+				<div class="small-well row-fluid">
+                    <div class="service-title span3">
+                        <i class="ficon-users service-icon"></i>
+                        <span>User</span>
+                    </div>
+					<div class="service-info span9">
+                        <span class="service-content">提供注册/登录功能，个人信息记录。</span>
+                        <!--span class="service-link">
+                            <a onclick="loginShow()">Login</a>
+                            <a href="__URL__/../User/toRegister">Sign up</a>
+                        </span-->
 					</div>
 				</div>
 			</div>
 			<div class="span4">
-				<div class="small-well">
-					<div class="service-icon">
-						<li class="icon-th-large icon-white"></li>
+				<div class="small-well row-fluid">
+					<div class="service-title span3">
+						<i class="ficon-food service-icon"></i>
+                        <span>Dining</span>
 					</div>
-					<h5>Dining</h5>
-					<span>Orders/List</span>
-					<div class="progress progress-info">
-					  <div class="bar" style="width: 80%"></div>
-					</div>
+                    <div class="service-info span9">
+                        <span class="service-content">订购、预定、查看订购记录、充值等..</span>
+                    </div>
 				</div>
 			</div>
 			<div class="span4">
-				<div class="small-well">
-					<div class="service-icon">
-						<li class="icon-headphones icon-white"></li>
-					</div>
-					<h5>??</h5>
-					<span>?</span>
-					<div class="progress progress-info">
-					  <div class="bar" style="width: 0%"></div>
-					</div>
+				<div class="small-well row-fluid">
+                    <div class="service-title span3">
+                        <i class="service-icon" style="margin-bottom: 12px;display: inline-block;font-weight: bold;">FM</i>
+                        <span>Radio</span>
+                    </div>
+                    <div class="service-info span9">
+                        <span class="service-content">在线电台，简单便捷收听。</span>
+                    </div>
 				</div>
 			</div>
 		</div>
+
+        <!-- Future -->
+        <div class="headerline">
+            <h3>Future</h3>
+        </div>
+        <div class="row-fluid">
+            <div class="span4">
+                <div class="small-well row-fluid">
+                    <div class="service-title span3">
+                        <i class="service-icon" style="margin-bottom: 12px;display:block; font-weight: bold;">?</i>
+                        <span>None</span>
+                    </div>
+                    <div class="service-info span9">
+                        <span class="service-content">还不知道!</span>
+                        <!--span class="service-link">
+                            <a onclick="loginShow()">Login</a>
+                            <a href="__URL__/../User/toRegister">Sign up</a>
+                        </span-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- technique -->
+        <div class="headerline">
+            <h3>Technique</h3>
+        </div>
+        <div class="row-fluid" style="margin-bottom: 50px">
+            <div class="span3">
+                <div class="service-photo-container orange">
+                    <i class="ficon-github service-photo"></i>
+                    <h3 class="service-photo-name">github</h3>
+                </div>
+                <!--<p class="service-introduce">
+                    Git是一个分布式的版本控制系统，最初由Linus Torvalds编写，用作Linux内核代码的管理...
+                </p>
+                <a onclick="window.open('https://github.com/');">Link &gt;&gt;</a>-->
+            </div>
+            <div class="span3">
+                <div class="service-photo-container blue">
+                    <i class="ficon-html5 service-photo"></i>
+                    <h3 class="service-photo-name">html5</h3>
+                </div>
+                <!--<p class="service-introduce">
+                    HTML5是用于取代1999年所制定的 HTML 4.01 和 XHTML 1.0 标准的 HTML 标准版本，现在仍处于发展阶段...
+                </p>
+                <a onclick="window.open('http://baike.baidu.com/view/951383.htm');">Link &gt;&gt;</a>-->
+            </div>
+            <div class="span3">
+                <div class="service-photo-container purple">
+                    <i class="ficon-feather service-photo"></i>
+                    <h3 class="service-photo-name">bootstrap</h3>
+                </div>
+                <!--<p class="service-introduce">
+                    Bootstrap是Twitter推出的一个开源的用于前端开发的工具包。Bootstrap提供了优雅的HTML和CSS规范，它即是由动态CSS语言Less...
+                </p>
+                <a onclick="window.open('http://twitter.github.io/bootstrap/');">Link &gt;&gt;</a>-->
+            </div>
+            <div class="span3">
+                <div class="service-photo-container red">
+                    <i class="service-photo" style="display: inline-block;line-height: 60px;">PHP</i>
+                    <h3 class="service-photo-name">php 5</h3>
+                </div>
+                <!--<p class="service-introduce">
+                    PHP是“PHP:Hypertext Preprocessor”的缩写，即“超文本预处理器”。PHP是一种功能强大，并且简便易用的脚本语言。
+                </p>
+                <a onclick="window.open('http://php.net/');">Link &gt;&gt;</a>-->
+            </div>
+        </div>
 	</div>
 </div>
 
-<link href="__URL__/../../public/css/index.css" rel="stylesheet" media="screen">
+<link href="__URL__/../../public/css/home/index.css" rel="stylesheet" media="screen">
 <script src="__URL__/../../public/js/Home/index.js"></script>
 
 
@@ -160,7 +233,7 @@
                <section>
                    <h4><span class="">联系我们</span></h4>
                    <p>
-                       <strong>Tel:</strong> 110<br>
+                       <strong>Tel:</strong> 2806<br>
                        <strong>Email:</strong> qianduo@eccom.com.cn
                    </p>
                </section>
@@ -181,7 +254,7 @@
             <div class="span4">
                 <section>
                     <h4><span>ABOUT US</span></h4>
-                    <p>Immortal robot bodies are the new rage.</p>
+                    <p>NuLl</p>
                 </section>
             </div>
 
@@ -196,5 +269,6 @@
 	</div>
 </section>
 <script src="__URL__/../../assets/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 </body>
 </html>

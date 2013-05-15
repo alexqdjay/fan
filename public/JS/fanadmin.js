@@ -213,6 +213,8 @@ Fan.table.Table = function(c) {
                 tr.append(td);
             });
         });
+
+        $(_this).trigger("afterrender");
     }
 
     _constructor();
@@ -244,7 +246,7 @@ Fan.table.Store = function(c) {
                         op.callBack.call(_this,obj);
                     }
                 }
-                catch(e){}
+                catch(e){alert(e)}
                $(_this).triggerHandler('load',[obj]);
             }
         });
@@ -269,6 +271,7 @@ Fan.table.PageTool = function(option) {
     this.page = 1;
     this.totalPage=0;
     this.sibling = null;
+    var autoLoad = option.autoLoad==null?true:option.autoLoad;
     var nextBtn,preBtn,pageNum;
     function _constructor() {
         store = option.store;
@@ -287,7 +290,9 @@ Fan.table.PageTool = function(option) {
             _this.prePage();
         });
 
-        _this.reload();
+        if(autoLoad) {
+            _this.reload();
+        }
     }
 
     this.setSibling = function(s) {

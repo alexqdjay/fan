@@ -9,13 +9,15 @@
     <link href="__URL__/../../assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="__URL__/../../assets/css/animate.min.css" rel="stylesheet" media="screen">
     <link href="__URL__/../../assets/css/jquery-ui-1.10.1.custom.min.css" rel="stylesheet" media="screen">
+    <link href="__URL__/../../assets/fontello/css/fontello.css" rel="stylesheet">
+    <link href="__URL__/../../assets/fontello/css/animation.css" rel="stylesheet">
     <link href="__URL__/../../public/css/fan.css" rel="stylesheet" media="screen">
     <script src="__URL__/../../assets/js/jquery.js"></script>
     <script src="__URL__/../../assets/js/jquery-ui-1.10.1.custom.min.js"></script>
     <script src="__URL__/../../public/js/Home/common.js"></script>
      <script src="__URL__/../../public/js/fanadmin.js"></script>
-    <!--  <link href="__URL__/../assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --> 
+    <!-- <link href="__URL__/../../assets/css/bootstrap-responsive.css" rel="stylesheet">-->
+     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -85,7 +87,7 @@
 		</div>
 	</div>
 </section>
-<link href="__URL__/../../public/css/personal.css" rel="stylesheet" media="screen">
+<link href="__URL__/../../public/css/home/personal.css" rel="stylesheet" media="screen">
 <script src="__URL__/../../public/js/Home/personal.js"></script>
 <script>
 	var _url = "__APP__/../";
@@ -99,7 +101,7 @@
                <section>
                    <h4><span class="">联系我们</span></h4>
                    <p>
-                       <strong>Tel:</strong> 110<br>
+                       <strong>Tel:</strong> 2806<br>
                        <strong>Email:</strong> qianduo@eccom.com.cn
                    </p>
                </section>
@@ -120,7 +122,7 @@
             <div class="span4">
                 <section>
                     <h4><span>ABOUT US</span></h4>
-                    <p>Immortal robot bodies are the new rage.</p>
+                    <p>NuLl</p>
                 </section>
             </div>
 
@@ -135,5 +137,6 @@
 	</div>
 </section>
 <script src="__URL__/../../assets/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 </body>
 </html>

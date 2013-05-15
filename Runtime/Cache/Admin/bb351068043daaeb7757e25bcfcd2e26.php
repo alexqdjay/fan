@@ -6,26 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta name="description" content=""> 
     <meta name="author" content=""> 
-    <link href="__URL__/../../assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="__URL__/../../assets/css/animate.min.css" rel="stylesheet" media="screen">
-    <link href="__URL__/../../assets/css/jquery-ui-1.10.1.custom.min.css" rel="stylesheet" media="screen">
-    <link href="__URL__/../../assets/fontello/css/fontello.css" rel="stylesheet">
-    <link href="__URL__/../../assets/fontello/css/animation.css" rel="stylesheet">
-    <link href="__URL__/../../public/css/fan.css" rel="stylesheet" media="screen">
-    <script src="__URL__/../../assets/js/jquery.js"></script>
-    <script src="__URL__/../../assets/js/jquery-ui-1.10.1.custom.min.js"></script>
-    <script src="__URL__/../../public/js/Home/common.js"></script>
-     <script src="__URL__/../../public/js/fanadmin.js"></script>
-    <!-- <link href="__URL__/../../assets/css/bootstrap-responsive.css" rel="stylesheet">-->
-     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <link href="__URL__/../../../assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="__URL__/../../../assets/css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="__URL__/../../../assets/css/jquery-ui-1.10.1.custom.min.css" rel="stylesheet" media="screen">
+    <link href="__URL__/../../../public/CSS/common.css" rel="stylesheet" media="screen">
+    <script src="__URL__/../../../assets/js/jquery.js"></script>
+    <script src="__URL__/../../../assets/js/jquery-ui-1.10.1.custom.min.js"></script>
+    <!--  <link href="__URL__/../assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --> 
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+     <script src="__URL__/../../../public/JS/Admin/common.js"></script>
      <script>
          var URL = '__URL__';
      </script>
  </head>
-
 <body>
 <style>
     html,body {
@@ -34,7 +30,7 @@
 
     #content {
         height:100%;
-        background-image: url('__URL__/../../public/img/home/bg1.jpg');
+        background-image: url('__URL__/../../../public/img/home/bg1.jpg');
         background-size: 100% 100%;
     }
 
@@ -75,8 +71,8 @@
 		</div>
 	</div>
 </section>
-<link href="__URL__/../../public/css/home/login.css" rel="stylesheet" media="screen">
-<script src="__URL__/../../public/js/home/login.js"></script>
-<script src="__URL__/../../assets/js/bootstrap.min.js"></script>
+<link href="__URL__/../../../public/css/home/login.css" rel="stylesheet" media="screen">
+<script src="__URL__/../../../public/js/home/login.js"></script>
+<script src="__URL__/../../../assets/js/bootstrap.min.js"></script>
 </body>
 </html>

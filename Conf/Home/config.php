@@ -2,12 +2,12 @@
 return array(
 	'DB_TYPE'	=>'mysql',
 	'DB_HOST'	=>'localhost',
-//	'DB_NAME'   => 'fan', // 数据库名
-//	'DB_USER'   => 'fan', // 用户名
-//	'DB_PWD'    => '19871209xy', // 密码
-	'DB_NAME'   => 'test', // 数据库名
-	'DB_USER'   => 'eccom', // 用户名
-	'DB_PWD'    => 'eccom', // 密码
+	'DB_NAME'   => 'fan', // 数据库名
+	'DB_USER'   => 'fan', // 用户名
+	'DB_PWD'    => '19871209xy', // 密码
+//	'DB_NAME'   => 'test', // 数据库名
+//	'DB_USER'   => 'eccom', // 用户名
+//	'DB_PWD'    => 'eccom', // 密码
 	'DB_PORT'   => 3306, // 端口
 	'DB_PREFIX'	=> '',
 	'DB_CHARSET'=> 'utf8',

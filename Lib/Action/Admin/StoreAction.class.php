@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-class StoreAction extends Action{
+class StoreAction extends AdminCommonAction{
 
     public function search($name='') {
         $S = M('Store');

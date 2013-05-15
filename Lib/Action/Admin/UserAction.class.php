@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-class UserAction extends Action{
+class UserAction extends AdminCommonAction{
 
     public function users() {
         $this->title = 'Users';

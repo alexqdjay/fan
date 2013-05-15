@@ -7,9 +7,13 @@
  * To change this template use File | Settings | File Templates.
  */
 
-class ChargeAction extends Action{
+class ChargeAction extends AdminCommonAction{
 
     public function index() {
+        if(!$this->auth) {
+            $this->redirect('../Index/toLogin',array('p'=>'Index-index'));
+        }
+
         $this->title = 'Charge';
         $this->display();
     }
@@ -22,6 +26,10 @@ class ChargeAction extends Action{
     }
 
     public function confirm($id=0,$status=1) {
+        if(!$this->auth) {
+            $this->ajaxReturn(array('success'=>false),'json');
+            return;
+        }
         $data['status'] = $status;
         $C = M('charges');
         $data = $C->where(array('id'=>$id,'status'=>0))->field('money,user_id')->find();
@@ -82,7 +90,7 @@ class ChargeAction extends Action{
 
         $C = new ChargesModel();
         $count = $C->join('right join user on user_id=user.id')->where($where)->count();
-        $this->ajaxReturn(array('total'=>(ceil($count/20))),'json');
+        $this->ajaxReturn(array('total'=>(ceil($count))),'json');
     }
 
     public function test() {

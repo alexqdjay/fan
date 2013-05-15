@@ -80,14 +80,11 @@ class PersonalAction extends Action{
 	private function getAccountRecords($type,$uid) {
 		$db =  new Model();
 		if($type == 0) {
-			$date = new DateTime(date('Y-m-01'));
-			$ts = strtotime('now');
+			$ts = mktime(0,0,0,date('m'),1,date('Y'));
 			$sqlsss = "select ts,-1*price as money from orders,dining  where status=2 and user_id=$uid and ts>$ts and dining_id=dining.id union select ts, money from charges where user_id=$uid and ts>$ts order by ts desc";
 		}
 		else if($type != 0) {
-			$strDate=date('Y-m-01',strtotime('-1 month'));
-			$date = new DateTime($strDate);
-			$ts = strtotime('now');
+			$ts = mktime(0,0,0,date('m')-1,1,date('Y'));
 			if($type == 1) {
 				$sqlsss = "select ts,-1*price as money from orders,dining  where status=2 and user_id=$uid and ts>$ts and dining_id=dining.id union select ts, money from charges where user_id=$uid and ts>$ts order by ts desc";
 			}

@@ -3,15 +3,15 @@
 	<div class="pagination pagination-right" id="pagination1">
       	<ul>
       		<li><a onclick="onClickPre()" style="cursor:pointer;">&lt;&lt;</a></li>
-				<?php $__FOR_START_21060__=1;$__FOR_END_21060__=$count+1;for($i=$__FOR_START_21060__;$i < $__FOR_END_21060__;$i+=1){ ?><li class="pagination-count"><a href="#<?php echo ($i); ?>" id="paginationCount_<?php echo ($i); ?>" onclick="onClickPagination(<?php echo ($i); ?>);"><?php echo ($i); ?></a></li><?php } ?>
+				<?php $__FOR_START_9641__=1;$__FOR_END_9641__=$count+1;for($i=$__FOR_START_9641__;$i < $__FOR_END_9641__;$i+=1){ ?><li class="pagination-count"><a id="paginationCount_<?php echo ($i); ?>" onclick="onClickPagination(<?php echo ($i); ?>);"><?php echo ($i); ?></a></li><?php } ?>
 			<li class=""><a onclick="onClickNext();" style="cursor:pointer;">&gt;&gt;</a></li>
 	  	</ul>
      </div>
 	<table class="table table-striped table-hover">
 		<thead>
 			<tr>
-				<th>NO.</th>
-				<th>Time</th>
+				<th style="width: 100px;">NO.</th>
+				<th style="width: 170px;">Time</th>
 				<th>Name</th>
 				<th>Price</th>
 				<th>Status</th>
@@ -20,7 +20,8 @@
 		<tbody>
 			<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="" id="order_<?php echo ($vo["id"]); ?>">
 					<td><?php echo ($vo["id"]); ?></td>
-					<td><?php  $date = new DateTime(); $date->setTimestamp($vo['ts']); echo $date->format('Y/m/d H:i:s');?></td>
+					<td><?php
+ echo date('Y-m-d H:i:s',$vo['ts']);?></td>
 					<td><?php echo ($vo["diningName"]); ?></td>
 					<td><?php
  $price = (float)$vo['price']; echo sprintf('%01.1f',$price); ?></td>
